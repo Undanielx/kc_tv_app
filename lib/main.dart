@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       title: 'Ariantors TV',
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.black,
-        primaryColor: Color.fromARGB(255, 140, 47, 245),
+        primaryColor: const Color.fromARGB(255, 140, 47, 245),
         appBarTheme: const AppBarTheme(
           color: Color.fromARGB(255, 140, 47, 245),
         ),

@@ -12,8 +12,13 @@ class _StartScreenState extends State<StartScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Ariantors TV',
-      style: Theme.of(context).textTheme.headlineLarge,
+      appBar: AppBar(
+        leading:Padding(padding: const EdgeInsets.all(1.0),
+        child: Image.asset('assets/images/ari1.jpg'),
+        ),
+        title : Text(
+          'Ariantors TV',
+        style: Theme.of(context).textTheme.headlineLarge,
       ),
       ),
       body: Center(
@@ -46,7 +51,7 @@ class _StartScreenState extends State<StartScreen> {
             backgroundColor: Color.fromARGB(255, 57, 1, 107),
            ),
         ],
-        backgroundColor: Color.fromARGB(255, 140, 47, 245),
+        backgroundColor: const Color.fromARGB(255, 140, 47, 245),
         onTap: null,
         ),
     );
