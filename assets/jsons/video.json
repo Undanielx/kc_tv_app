@@ -1,0 +1,28 @@
+{
+    "items": [
+        {
+            "url": "https://www.youtube.com/watch?v=QYh6mYIJG2Y&pp=ygUHNyByaW5ncw%3D%3D",
+            "title": "Seven Rings",
+            "mini": "assets/images/7 rings _video.jpg",
+            "duration": "03:05",
+            "date": "18/01/2019",
+            "description": "7 rings es un homenaje muy explícito a My favourite things, el tema más popular del musical Sonrisas y lágrimas. Ambas canciones tienen en común que son un canto a la alegría de disfrutar de las cosas pequeñas que nos da la vida"
+      },
+        {
+            "url": "https://www.youtube.com/watch?v=AoAm4om0wTs&ab_channel=LadyGagaVEVO",
+            "title": "Lady Gaga, Ariana Grande - Rain On Me (Official Music Video)",
+            "mini": "assets/images/rainonme_video.jpg",
+            "duration": "03:08",
+            "date": "22/05/2020",
+            "description": "Rain on Me es un tema dance-pop que se inspira en el house clásico de los años 90 y que con cierto aire retro continúa, de este modo, con la tendencia en la industria musical de inspirarse en sonidos de décadas pasadas (como Dua Lipa ha hecho con su álbum Future Nostalgia)."
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=0HDdjwpPM3Y&ab_channel=JessieJVEVO",
+            "title": "Jessie J - Bang Bang ft. Ariana Grande, Nicki Minaj",
+            "mini": "assets/images/bang bang video.jpg",
+            "duration": "04:22",
+            "date": "25/03/2014",
+            "description": "«Bang Bang» es una canción interpretada por la cantante británica Jessie J, la cantante estadounidense Ariana Grande y la cantante y rapera trinitense Nicki Minaj, incluida en el álbum de estudio de Jessie J, Sweet Talker y en la edición de lujo del álbum de Grande, My Everything."
+        }
+    ]
+}

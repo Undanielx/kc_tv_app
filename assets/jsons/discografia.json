@@ -1,0 +1,28 @@
+{
+    "episodes": [
+        {
+            "url": "https://www.youtube.com/watch?v=LcqxZqpgx6c&ab_channel=AnutoshGhosh",
+            "title": "Album: Thank u, next / COMPLETO",
+            "mini": "assets/images/THAKS_ALBUM.jpg", 
+            "duration": "1:00:00", 
+            "date": "08/02/2019",
+            "description": "Thank U, Next (estilizado en minúsculas) es el quinto álbum de estudio de Ariana Grande lanzado el 8 de febrero de 2019 a través de Republic Records. El álbum fue grabado entre octubre y diciembre de 2018."
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=RlGxmEIzNH0&list=PL-9iO2rIrpm6gcnD62QtGwq-SpQ5MzbDQ&index=13",
+            "title": "The Sweetener World Tour",
+            "mini": "assets/images/swetener tour video.jpg",
+            "duration": "1:35:00",
+            "date": "10/12/2020",
+            "description": "Ariana Grande: Excuse Me, I Love You (en español: Ariana Grande: Disculpe, Te Amo, ambos estilizados en mayúsculas) es una película biográfica estadounidense de 2020 sobre el desarrollo de los conciertos que protagoniza Ariana Grande en el escenario y detrás de escena durante la gira Sweetener World Tour en 2019"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=VronettmNRI&ab_channel=ArianaGrandeVevo",
+            "title": "Ariana Grande - Positions Album (Official Live Performances) | Vevo",
+            "mini": "assets/images/positions video.jpg",
+            "duration": "22:01",
+            "date": "30/11/2021",
+            "description": "Ariana Grande lanzó su sexto álbum de estudio, “Positions”, el pasado viernes. El álbum está salpicado de flashbacks a viejas canciones y eventos en su vida. Por ejemplo, “Safety Net” tiene una referencia lírica a “In My Head”; mientras que “POV” recicla la idea del equipaje emocional de “Ghostin”."
+        }
+    ]
+}

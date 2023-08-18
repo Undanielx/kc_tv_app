@@ -1,0 +1,28 @@
+{
+    "music": [
+        {
+            "url": "https://www.youtube.com/watch?v=nQJEp-k-ogs&pp=ygUDcG92",
+            "title": "Pov",
+            "mini": "assets/images/ariana_Pov_musica.jpg",
+            "duration": "3:23",
+            "date": "19/04/2021",
+            "description": "«POV» (del acrónimo en inglés: «Punto de vista») es una canción de la cantante estadounidense Ariana Grande de su sexto álbum de estudio Positions."
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=M84fFXooS5w&pp=ygUHNyByaW5ncw%3D%3D",
+            "title": "7 Rings",
+            "mini": "assets/images/7 rings _video.jpg",
+            "duration": "3:05",
+            "date": "18/01/2019",
+            "description": "7 rings es un homenaje muy explícito a My favourite things, el tema más popular del musical Sonrisas y lágrimas. Ambas canciones tienen en común que son un canto a la alegría de disfrutar de las cosas pequeñas que nos da la vida"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=XTZigwkcJhw&pp=ygUKZmFrZSBzbWlsZQ%3D%3D",
+            "title": "Fake Smile",
+            "mini": "assets/images/ariana fake smile.jpg",
+            "duration": "3:30",
+            "date": "08/02/2019",
+            "description": "Fake Smile es una canción pop incluida en el quinto álbum de estudio de la cantante estadounidense Ariana Grande, thank u, next. El álbum fue lanzado el 8 de febrero de 2019, apenas seis meses después de su álbum anterior, Sweetener. "
+        }
+    ]
+}

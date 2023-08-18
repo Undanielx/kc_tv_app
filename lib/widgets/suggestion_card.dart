@@ -1,57 +1,83 @@
 import 'package:flutter/material.dart';
+import 'package:kc_tv_app/model/item.dart';
+import 'package:kc_tv_app/screens/player_screen.dart';
 
-class SuggestionCard extends StatelessWidget {
-  const SuggestionCard({super.key});
+class SuggestionCard extends StatefulWidget {
+  final Item item;
+
+   const SuggestionCard({super.key, required this.item});
+
+  @override
+  State<SuggestionCard> createState() => _SuggestionCardState();
+}
+
+class _SuggestionCardState extends State<SuggestionCard> {
+
 
   @override
   Widget build(BuildContext context) {
+    
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        ClipRRect(
-          borderRadius: BorderRadius.circular(40),
-          child: const Image(
-            image: AssetImage('assets/images/ari6.jpg'),
-            ),
-        ),
-        const SizedBox(width: 20,),
+         SizedBox(
+           width: 550,
+           height: 350,
+           child: ClipRRect(
+              borderRadius: BorderRadius.circular(40),
+              child: GestureDetector(
+                onTap: () { 
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => PlayerScreen(url: widget.item.url.toString())));
+                },
+                child: Image(
+                      image: AssetImage(widget.item.mini.toString() ),
+                    ),
+                ),
+              ),
+         ),
+        const SizedBox (width: 20.0,),
         Column(
           children: [
             SizedBox(
-              width:250, 
-              height:50,
+              width: 300,
+              height: 150,
               child: Text(
-                'POV',
+                widget.item.title.toString(),
                 style: Theme.of(context).textTheme.headlineLarge,
               ),
             ),
             SizedBox(
-              width: 300,
-              height: 80,
+              width: 305,
+              height: 120,
               child: Text(
-                'Disfruta de POV-Ariana Grande, unos de los ultimos exitos de la cantante y actriz',
-                style: Theme.of(context).textTheme.bodyMedium,
+                    widget.item.description.toString(),
+                    style: Theme.of(context).textTheme.bodyMedium,
+                    textAlign: TextAlign.justify,
               ),
             ),
             SizedBox(
               width: 300,
-              height: 50,
-              child: Text(
-                'Fecha: 29/05/12',
-                style: Theme.of(context).textTheme.bodyMedium,
+              height: 40,
+              child: Text('Fecha:  ${widget.item.date.toString()}',
+                    style: Theme.of(context).textTheme.bodyMedium,
+                    textAlign: TextAlign.justify,
               ),
             ),
             SizedBox(
               width: 300,
-              height: 50,
-              child: Text(
-                'Duracion: 03:54',
-                style: Theme.of(context).textTheme.bodyMedium,
+              height: 40,
+              child: Text('Duración: ${widget.item.duration.toString()}',
+                    style: Theme.of(context).textTheme.bodyMedium,
+                    textAlign: TextAlign.justify,
               ),
             ),
-          ],
-        )
+          ],          
+        ),
       ],
     );
+
   }
 }
